@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ff7700;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23d30f00' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23b20e00' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23c22b09' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23c22912' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23a84513' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23a80b2f' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23a47018' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ae1f3f' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23828925' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23a92053' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23989021' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23b23358' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  /* background by SVGBackgrounds.com */
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+}
+
+.Cart {
+  padding: 1em 1em;
+  width: 750px;
+  margin: 80px auto;
+  background: white;
+  border-radius: 7px;
+  -webkit-box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Cart-title {
+  border-bottom: 1px solid grey;
+  color: grey;
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 1em;
+}
+/*# sourceMappingURL=Cart.css.map */
